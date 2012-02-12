@@ -1,0 +1,11 @@
+Evolution attempt from goblin/p2pool-stats.
+
+node.js is a fine solution for the aim of the stats, BUT tailing P2Pool's log has a high I/O price.
+This is an attempt at creating a node.js with JSON listeners, than can receive POST information from whatever you wish.
+
+There's even a possibility to have MySQL doing JSON POSTs on INSERT or UPDATE - tested, still not very efficient, will come 
+later if I can raise its performance.
+
+The chain_img, albeit "nice", might be a bit heavy on slow connections, so it it became optional too.
+
+
