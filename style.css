@@ -1,0 +1,199 @@
+a:link {color: #FFFFFF; text-decoration: none; }
+a:visited {color: #FFFFFF; text-decoration: none; }
+a:hover {color: #20ff20; text-decoration: none; }
+
+a.commandlink:link {color: #FFFFFF; text-decoration: none; border-bottom: 1px dashed #999999; }
+a.commandlink:visited {color: #FFFFFF; text-decoration: none; border-bottom: 1px dashed #999999;}
+a.commandlink:hover {color: #20ff20; text-decoration: none; border-bottom: 1px dashed #20ff20; }
+
+body, table {
+	background: #242424;
+	margin: 10px;
+	padding: 0px; 
+	font-family: Verdana;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+.gain { background: #090; }
+.loss { background: #f00; }
+.change { width: 110px; margin: 5px auto; font-size: 2.0em; text-align: center; font-weight: 25; padding: 3px 0; letter-spacing: 2px; }
+.shareChange { width: 230px; margin: 10px auto; box-shadow: inset 1px 1px 5px #333; text-align: center; font-size: 3.0em; color: #333; font-weight: 800; padding: 3px 0; letter-spacing: 2px; }
+
+
+img {
+	border: 0;
+}
+
+.progress {
+	background: #000000;
+}
+
+.block {
+	padding: 6px;
+	margin: 3px;
+	margin-bottom: 10px;
+	background-color: #242424;
+	border: 1px solid #474747;
+	zoom: 1;
+}
+
+.top {
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	padding: 6px;
+	margin: 3px;
+	margin-bottom: 4px;
+	background-color: #242424;
+	border: 1px solid #474747;
+	zoom: 1;
+}
+
+.postlog {
+	padding: 6px;
+	margin: 3px;
+	background-color: #242424;
+	border: none;
+	text-align: left;
+}
+
+.submit {
+	font-family: "Verdana";
+	font-size: 12px;
+}
+
+.inputfile {
+	font-family: "Verdana";
+	font-size: 12px;
+}
+
+.inputnewzbin{
+	font-family: "Verdana";
+	font-size: 12px;
+	width: 90; 
+}
+
+.inputrate {
+	font-family: "Verdana";
+	font-size: 12px;
+	width: 50;
+}
+
+.history-log {
+	font-family: "Verdana";
+	font-size: 10px;
+	width: 50;
+}
+
+.pausedgroup {
+	color: #AAAAAA;
+}
+
+.unpausedgroup {
+}
+
+.INFO, .SUCCESS {
+	color: #00BB00;
+	width: 70;
+}
+
+.DETAIL {
+	color: #00BB00;
+	width: 70;
+}
+
+.ERROR, .FAILED, .FAILURE {
+	color: red;
+	width: 70;
+}
+
+.WARNING {
+	color: magenta;
+	width: 70;
+}
+
+.DEBUG, .NONE {
+	color: gray;
+	width: 70;
+}
+
+.tableline {
+	border: none 0; 
+	border-top: 1px dashed #474747; 
+	height: 1px;
+	margin: 0px;
+}
+
+.page {
+	color: white;
+}
+
+.curpage {
+	color: #00BB00;
+}
+
+.categorycombo {
+	background-color: #242424;
+	color: white;
+	border: none 0; 
+	font-family: "Verdana";
+	font-size: 12px;
+}
+
+.pausedcategorycombo {
+	background-color: #242424;
+	color: #AAAAAA;
+	border: none 0; 
+	font-family: "Verdana";
+	font-size: 12px;
+}
+
+.date {
+	color: #AAAAAA;
+}
+
+.description {
+	padding: 3px;
+	margin: 0px;
+	font-size: 9px;
+	background-color: #333333;
+	border: 1px solid #474747;
+}
+
+.disabledoption {
+	color: #AAAAAA;
+}
+
+.menuselectedsection {
+	color: #20ff20;
+}
+
+.configmenu {
+}
+
+.configmenuitem {
+	padding-bottom: 5px;
+}
+
+.configselect {
+}
+
+.configeditlarge {
+	width: 100%;
+}
+
+.configeditsmall {
+	width: 140px;
+}
+
+.configeditnumeric {
+	width: 70px;
+}
+
+.configsettitle {
+	padding: 3px;
+	margin: 0px;
+	background-color: #333333;
+	border: 1px solid #AAAAAA;
+}
