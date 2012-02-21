@@ -7,4 +7,3 @@ There's even a possibility to have MySQL doing JSON POSTs on INSERT or UPDATE - 
 
 The chain_img, albeit "nice", might be a bit heavy on slow connections, so it will become optional too.
 
-
