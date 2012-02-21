@@ -6,3 +6,7 @@ restart of p2pool does not stop realtime graph, it resumes
 
 21-02-2012
 index.html indentation
+
+21-02-2012
+added total shares, last share time, orphans, DOA, share ETA and efficiency to index.html
+
