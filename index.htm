@@ -171,9 +171,9 @@ Local
 <table class="bordered">
     <thead>
     <tr>
-        <th>Payout</th>
-        <th>diff</th>
-        <th>&nbsp;</th>
+        <th id="pay1">Payout</th>
+        <th id="pay3">diff</th>
+        <th id="pay6">&nbsp;</th>
         <th>My Hash</th>
         <th>diff</th>        
         <th>&nbsp;</th>        
@@ -181,9 +181,9 @@ Local
     </tr>
     </thead>
     <tr>
-        <td width="100"><p id="payout">-</p>        </td>
-        <td width="100"><p id="payoutdiff">-</p></td>
-        <td>&nbsp;</td>
+        <td width="100" id="pay2"><p id="payout">-</p>        </td>
+        <td width="100" id="pay4"><p id="payoutdiff">-</p></td>
+        <td id="pay5">&nbsp;</td>
         <td><p id="myhash">-</p>        </td>
         <td width="60"><p id="myhashdiff">-</p></td>        
         <td>&nbsp;</td>        
@@ -206,7 +206,7 @@ Local
     </tr>
     </thead>
     <tr>
-        <td width="100"><p id="shares">-</p>        </td>
+        <td width="100"><p id="shares">0</p>        </td>
         <td width="100"><p id="lastat">-</p></td>
         <td><p id="orphans">-</p></td>
         <td><p id="doa">-</p></td>
@@ -243,6 +243,12 @@ $('#toggleCheck').change(function(){
 
 $("#button").click(function(){
          $("#payout").toggle();
+         $("#pay1").toggle();
+         $("#pay2").toggle();         
+         $("#pay3").toggle();
+         $("#pay4").toggle();                  
+         $("#pay5").toggle();                           
+         $("#pay6").toggle();                                    
      });
 
 $("#button2").click(function(){
